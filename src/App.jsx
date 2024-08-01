@@ -6,7 +6,11 @@ function App() {
 
   return (
     <>
-      <div className=""></div>
+      <div className="flex justify-center">
+        <div className=" bg-red-700">Red</div>
+        <div className=" bg-green-700">Green</div>
+        <div className=" bg-blue-700">Blue</div>
+      </div>
     </>
   );
 }
