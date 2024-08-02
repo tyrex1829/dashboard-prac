@@ -2,7 +2,7 @@ import React from "react";
 
 const RevenueCard = ({ title, orderCount, amount }) => {
   return (
-    <div className="bg-white rounded shadow-sm p-6">
+    <div className="bg-white rounded shadow-sm p-6 hover:bg-red-200">
       <div className="text-gray-700 flex">
         <div className=" pr-2">{title}</div>
         <div className="flex justify-center flex-col">
