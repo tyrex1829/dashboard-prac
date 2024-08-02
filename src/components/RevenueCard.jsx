@@ -26,7 +26,7 @@ const RevenueCard = ({ title, orderCount, amount }) => {
       <div className="flex justify-between pt-2">
         <div className="text-2xl font-semibold">₹{amount}</div>
         {orderCount ? (
-          <div className="flex cursor-pointer font-medium text-blue-700 underline flex flex-col justify-center">
+          <div className="flex cursor-pointer font-medium text-blue-700 underline flex-col justify-center">
             <div className="flex justify-center">
               <div>{orderCount} order(s) </div>
               <div>
