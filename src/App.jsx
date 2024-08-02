@@ -4,6 +4,13 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
+  return (
+    <>
+      <div>vdv</div>
+    </>
+  );
+
+  // for tailwind practice
   // return (
   //   <>
   //     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
